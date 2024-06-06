@@ -1,22 +1,6 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -24,15 +8,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<!-- <br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="/portfolio/resources/images/PortfolioScreenshot.png" alt="Logo" width="80" height="80">
-  </a> -->
 
 <h3 align="center">Quote API</h3>
 
@@ -49,8 +24,6 @@
     <a href="https://github.com/mattsteen14/ca-quote-api/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -82,20 +55,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Portfolio Screen Shot][product-screenshot]](https://github.com/mattsteen14/ca-quote-api) -->
-
 ### Codecademy Project Brief
 
 "In this project, you’ll be building a small Express.js web API to store and serve different quotes about computers, coding, and technology."
 
+Final task 8 extension bullet point:
+* Add another resource to your API in addition to quotes, such as biographical blurbs (you’ll need to find your own data for this new resource). Use Express Routers to keep your code simple and separated into different files for each router.
+
 ### My Comments
 
-To be added upon project completion.
+Completed with task 8 extensions. I did not do the last bullet point as written (see above) because it seemed like it would be a lot of research needed and I surmised that the point of that particular sub task was to use Express Routers to separate & refactor code into another file. I feel that I achieved this through refactoring my quotes code into quote.js and running that through quotesRouter in server.js. 
 
-*Please feel free to fact check the years and create a pull request to update.
+Overall a good enjoyable task that took about half a day to complete. To help with the tasks, I mostly looked at my notes for the previous lessons in this Learn Express module. This project has really helped me get to grips with Express & back end. I've been finding it hard to adjust my thinking after jumping from front end to back end for so long but I feel like I'm getting the hang of it now. Using Postman to check if the code was working was really useful for this project.
+
+*Please feel free to fact check the years and create a pull request to update. Essentially it is not the point of the project so I entered what I could find and guessed the rest. So if it bothers you then please forgive and feel free to contribute to correct.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -141,7 +116,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Complete project as per brief.
+- [ ] Assess the styling and personalize.
 - [ ] Testing & Debugging.
 - [ ] Share on Codecademy forums for feedback.
 - [ ] Use surge to deploy.
