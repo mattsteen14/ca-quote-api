@@ -76,6 +76,8 @@ Overall a good enjoyable task that took about half a day to complete. To help wi
 
 ### Built With
 
+- HTML5
+- CSS
 - JavaScript
 - [Express.js](http://expressjs.com/)
 - [Node.js](https://nodejs.org/en)
@@ -111,12 +113,28 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+3. Start up server
+   ```sh
+   node server.js
+   ```
+4. Run in local browser
+- [localhost:4001](http://localhost:4001/)
+
+5. Restart server to see changes if necessary
+   ```sh
+   ctrl+C
+   ```
+   ```sh
+   node server.js
+   ```
+6. Refresh in local browser after step 6
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Implement nodemon.
 - [ ] Assess the styling and personalize.
 - [ ] Testing & Debugging.
 - [ ] Use surge to deploy.
