@@ -118,7 +118,9 @@ This is an example of how to list things you need to use the software and how to
    node server.js
    ```
 4. Run in local browser
-- [localhost:4001](http://localhost:4001/)
+   ```sh
+[localhost:4001](http://localhost:4001/)
+   ```
 
 5. Restart server to see changes if necessary
    ```sh
