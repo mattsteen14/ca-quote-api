@@ -102,6 +102,7 @@ To be added upon project completion.
 - [Express.js](http://expressjs.com/)
 - [Node.js](https://nodejs.org/en)
 - [Visual Studio Code](https://code.visualstudio.com)
+- [Postman](http://postman.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
