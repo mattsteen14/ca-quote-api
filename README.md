@@ -25,6 +25,7 @@
   </p>
 </div>
 
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -118,7 +119,6 @@ This is an example of how to list things you need to use the software and how to
 
 - [ ] Assess the styling and personalize.
 - [ ] Testing & Debugging.
-- [ ] Share on Codecademy forums for feedback.
 - [ ] Use surge to deploy.
 
 See the [open issues](https://github.com/mattsteen14/ca-quote-api/issues) for a full list of proposed features (and known issues).
