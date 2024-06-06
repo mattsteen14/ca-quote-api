@@ -34,7 +34,7 @@ app.post('/api/quotes', (req, res, next) => {
     const quote = req.query.quote;
     const person = req.query.person;
     if (quote && person) {
-        const newQuote = { quote, person };
+        const newQuote = { id: quotes.length + 1, quote, person }; // Assign a unique ID
         quotes.push(newQuote)
         res.send({ quote: newQuote })
     } else {
