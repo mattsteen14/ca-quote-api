@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const { quotes } = require('./data');
-const { getRandomElement } = require('./utils');
+const { getRandomElement, getIndexById, updateElement } = require('./utils');
 
 const PORT = process.env.PORT || 4001;
 
@@ -29,6 +29,7 @@ app.get('/api/quotes/random', (req, res, next) => {
     }
 })
 
+// Create a quote
 app.post('/api/quotes', (req, res, next) => {
     const quote = req.query.quote;
     const person = req.query.person;
@@ -38,6 +39,27 @@ app.post('/api/quotes', (req, res, next) => {
         res.send({ quote: newQuote })
     } else {
         res.status(400).send();
+    }
+})
+
+// Update a quote
+app.put('/api/quotes/:id', (req, res, next) => {
+    const quoteIndex = getIndexById(req.params.id, quotes);
+    if (quoteIndex !== -1) {
+        const updatedQuote = updateElement(req.params.id, req.query, quotes);
+        res.send({ quote: updatedQuote })
+    } else {
+        res.status(404).send();
+    }
+})
+
+app.delete('/api/quotes/:id', (req, res, next) => {
+    const quoteIndex = getIndexById(req.params.id, quotes);
+    if (quoteIndex !== -1) {
+        quotes.splice(quoteIndex, 1);
+        res.status(204).send();
+    } else {
+        res.status(404).send();
     }
 })
 
